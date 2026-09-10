@@ -59,3 +59,12 @@ h1 {
     letter-spacing: 1px;
     margin-bottom: 100px;
 }
+
+.baggrund {
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    background-color:#F4F1E8;
+
+}
