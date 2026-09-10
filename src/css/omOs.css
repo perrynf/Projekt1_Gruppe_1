@@ -1,0 +1,61 @@
+.circular-logo {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    background-color: #DCE5C1;
+    padding: 8px;
+}
+
+nav a {
+    color: #5b6e58;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #333333;
+    text-decoration: underline;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    padding: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+
+     max-width: 800px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 70px;
+     box-sizing: border-box;
+
+    background-color: #a3b19b;
+    border-radius: 30px;
+}
+
+.medarbejder {
+    text-align: center;
+    padding: 70px;
+}
+
+.text2 {
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+}
