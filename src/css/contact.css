@@ -44,30 +44,4 @@ button:hover {
     cursor: pointer;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    justify-content: flex-end;
-    background-color: #DCE5C1;
-    padding: 8px;
 
-}
-
-img {
-    width: 100px;
-    display: block;
-    margin: auto;
-    margin-bottom: 5px;
-}
-
-body {
-    background-color: #F4F1E8;
-    color: #26351F;
-}
-
-.horizontal-logo {
-    width: 200px;
-    display: block;
-    margin-left: 15px;
-}
