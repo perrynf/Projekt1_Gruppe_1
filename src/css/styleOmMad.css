@@ -4,9 +4,9 @@
     gap: 40px;
 
     margin: 230px auto 100px;
-    width: 70%;                                                 /*content area*/
+    width: 70%;
 
-    padding: 20px;                                              /*This one makes the width larger than 70% */
+    padding: 20px;
 }
 
 .hero img{
@@ -18,8 +18,6 @@
 
 
 main{
-   /* display: flex;
-    flex-direction: column;    */
     margin: 0 auto 100px;
     width: 70%;
     padding: 20px;
@@ -31,7 +29,7 @@ main{
 
 
 
-.questionContainer{                                            /*is made up of divs, block el, displays vertically*/
+.questionContainer{
     border-style: solid;
     border-color: #dfdfdf;
     border-radius: 4px;
@@ -54,7 +52,12 @@ main{
 }
 
 .radio-btn {
-    border-radius: 4px;                                       /*buttons are default display:in-line, made divs*/
+    border-radius: 4px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+
+body{
+    background-color: white !important;
 }
