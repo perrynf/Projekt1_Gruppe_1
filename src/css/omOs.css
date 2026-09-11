@@ -14,14 +14,13 @@ nav {
 nav a {
     color: #5b6e58;
     text-decoration: none;
-    font-weight: bold;
     padding: 8px;
     transition: 0.2s;
 }
 
 nav a:hover {
     color: #333333;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 h3 {
