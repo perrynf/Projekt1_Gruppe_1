@@ -3,7 +3,7 @@
     align-items: center;
     gap: 40px;
 
-    margin: 230px auto 100px;
+    margin: 80px auto 100px;
     width: 70%;
 
     padding: 20px;
@@ -56,7 +56,6 @@ main{
     padding-bottom: 10px;
     text-align: center;
 }
-
 
 body{
     background-color: white !important;
