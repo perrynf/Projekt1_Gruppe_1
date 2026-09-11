@@ -1,0 +1,60 @@
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    margin: 230px auto 100px;
+    width: 70%;                                                 /*content area*/
+
+    padding: 20px;                                              /*This one makes the width larger than 70% */
+}
+
+.hero img{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+main{
+   /* display: flex;
+    flex-direction: column;    */
+    margin: 0 auto 100px;
+    width: 70%;
+    padding: 20px;
+}
+
+.testVidenTekst{
+    padding-bottom: 20px;
+}
+
+
+
+.questionContainer{                                            /*is made up of divs, block el, displays vertically*/
+    border-style: solid;
+    border-color: #dfdfdf;
+    border-radius: 4px;
+    padding-bottom: 80px;
+    background-color: whitesmoke;
+}
+
+.questionIndicator{
+    color: #8e8b8b;
+    font-size: 12px;
+    padding-left: 12px;
+    position: absolute;
+}
+
+.question p{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 12px;
+    font-size: 18px;
+}
+
+.radio-btn {
+    border-radius: 4px;                                       /*buttons are default display:in-line, made divs*/
+    padding-bottom: 10px;
+    text-align: center;
+}
