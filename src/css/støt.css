@@ -5,4 +5,46 @@
     margin: auto;
 }
 
+.submit-button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+}
+
+.payment {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    column-gap: 10px;
+    text-align: center;
+}
+
+.payment h2,
+.pricing-box {
+    grid-column: 1 / -1;
+}
+
+.box-one {
+    grid-column: 1;
+    justify-content: center;
+}
+
+.box-two {
+    grid-column: 2;
+    justify-content: center;
+}
+
+.box-one,
+.box-two {
+    display: flex;
+    justify-content: center;
+}
+
+.box-two {
+    grid-column: 2;
+}
+
 
