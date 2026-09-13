@@ -61,14 +61,14 @@ h1 {
     text-align: center;
     line-height: 2;
     letter-spacing: 1px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .baggrund {
     text-align: center;
     line-height: 2;
     letter-spacing: 1px;
-    padding-top: 10px;
+    padding-top: 1px;
     padding-bottom: 50px;
     background-color:#F4F1E8;
 }
