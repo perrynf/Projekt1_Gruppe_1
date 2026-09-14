@@ -1,7 +1,7 @@
 .hero{
     display: flex;
     justify-content: center;            /*main*/
-    align-items: center;                /*cross*/
+    align-items: center;
     gap: 40px;
 
     margin: 80px auto 40px;
