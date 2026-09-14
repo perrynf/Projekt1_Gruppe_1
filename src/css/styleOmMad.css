@@ -1,7 +1,7 @@
 .hero{
     display: flex;
     justify-content: center;            /*main*/
-    align-items: center;
+    align-items: center;                /*cross*/
     gap: 40px;
 
     margin: 80px auto 40px;
@@ -33,21 +33,20 @@ main{
     border-radius: 4px;
     padding-bottom: 80px;
     background-color: whitesmoke;
-    height: 400px;
+    height: 300px;
 }
 
 .questionIndicator{
     color: #8e8b8b;
-    font-size: 12px;
-    padding-left: 12px;
+    font-weight: lighter;
+    padding-left: 14px;
     position: absolute;
 }
 
-.question p{
+.question h3{
     text-align: center;
-    font-weight: bold;
-    padding-bottom: 12px;
     font-size: 18px;
+    padding-top: 90px                       /*vertical*/
 }
 
 .radio-btn {
@@ -58,8 +57,7 @@ main{
 
 .goOneBack-btn{
     border: none;
-    text-decoration: underline;
-    font-size: 14px;         /*2nd act*/
+    font-size: 14px;             /*2nd act*/
     text-align: center;
     padding-top: 10px;
     background-color: inherit;
@@ -67,6 +65,7 @@ main{
 
 .goOneBack-btn:hover{
     font-weight: bold;
+    text-decoration: underline;
 }
 
 body{
