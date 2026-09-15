@@ -41,6 +41,7 @@
 .box-two {
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .box-two {
