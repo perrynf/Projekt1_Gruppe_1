@@ -1,9 +1,10 @@
 .hero{
     display: flex;
+    justify-content: center;            /*main*/
     align-items: center;
     gap: 40px;
 
-    margin: 80px auto 100px;
+    margin: 80px auto 40px;
     width: 70%;
 
     padding: 20px;
@@ -15,10 +16,8 @@
     object-fit: cover;
 }
 
-
-
 main{
-    margin: 0 auto 100px;
+    margin: 0 auto 120px;
     width: 70%;
     padding: 20px;
 }
@@ -28,33 +27,45 @@ main{
 }
 
 
-
 .questionContainer{
     border-style: solid;
     border-color: #dfdfdf;
     border-radius: 4px;
     padding-bottom: 80px;
     background-color: whitesmoke;
+    height: 300px;
 }
 
 .questionIndicator{
     color: #8e8b8b;
-    font-size: 12px;
-    padding-left: 12px;
+    font-weight: lighter;
+    padding-left: 14px;
     position: absolute;
 }
 
-.question p{
+.question h3{
     text-align: center;
-    font-weight: bold;
-    padding-bottom: 12px;
     font-size: 18px;
+    padding-top: 90px                       /*vertical*/
 }
 
 .radio-btn {
     border-radius: 4px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.goOneBack-btn{
+    border: none;
+    font-size: 14px;             /*2nd act*/
+    text-align: center;
+    padding-top: 10px;
+    background-color: inherit;
+}
+
+.goOneBack-btn:hover{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 body{
